@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Web Development</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo OceanoGuard" class="logo">
+            <h1>OceanoGuard</h1>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao OceanoGuard</h2>
+            <p>Protegendo os oceanos com tecnologia de ponta.</p>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="validateLogin(event)">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OceanoGuard. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
